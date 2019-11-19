@@ -1,0 +1,41 @@
+{
+  "role": {
+    "type": "String"
+  },
+  "balance": {
+    "type": "Number"
+  },
+  "contactName": {
+    "type": "String"
+  },
+  "contactEmail": {
+    "type": "String"
+  },
+  "contactPhoneNumber": {
+    "type": "String"
+  },
+  "walletAddress": {
+    "type": "String"
+  },
+  "userInfo": {
+    "companyName": {
+      "type": "String"
+    },
+    "publicAddress": {
+      "type": "String"
+    },
+    "dingId": {
+      "type": "String"
+    }
+  },
+  "symbolComplexIds": [
+    "ObjectId"
+  ],
+  "disabled": {
+    "type": "Boolean"
+  },
+  "updatedAt": {
+    "type": "Date"
+  }
+}
+

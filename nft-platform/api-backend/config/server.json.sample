@@ -1,0 +1,46 @@
+{
+  "server": {
+    "ip": "0.0.0.0",
+    "port": 3000
+  },
+ "mq": {
+     "host": "192.168.15.4",
+     "port": 61613,
+     "connectHeaders": {
+       "host": "/",
+       "login": "admin",
+       "passcode": "admin",
+       "heart-beat": "5000,5000"
+     }
+   },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "user": "",
+    "password": "",
+    "authMechanism": "DEFAULT",
+    "db": "nft-platform",
+    "authSource": "admin"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": "",
+    "db": 0
+  },
+  "login": {
+    "token_auto_expire": 15522000,
+    "nonce_expiration": 3600,
+    "jwt_secret": "whateversecret"
+  },
+  "upload": {
+    "qiniu": {
+      "scope": "miraco",
+      "expires": 7200,
+      "prefix_url": "http://pg9xib4i5.bkt.clouddn.com",
+      "upload_url": "https://upload-z2.qiniup.com",
+      "access_key": "1UzvI2RmuVUztmxWqhqg69z9wk902k4yEqbq8TSq",
+      "secret_key": "wBMHNvT1ndjNR9gpOMXMdVcCmzA9KwvsruABd12A"
+    }
+  }
+}

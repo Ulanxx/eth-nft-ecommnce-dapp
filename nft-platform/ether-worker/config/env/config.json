@@ -1,0 +1,28 @@
+{
+  "mq": {
+    "host": "localhost",
+    "port": 61613,
+    "connectHeaders": {
+      "host": "/",
+      "login": "admin",
+      "passcode": "admin",
+      "heart-beat": "5000,5000"
+    }
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "passwd": "",
+    "db": 0
+  },
+  "blockchain": {
+    "provider": {
+      "ip": "127.0.0.1",
+      "port": 8545
+    },
+    "contractAddress": "0x3Dd3ac57B5b64B8D6C5C61d668f4291157EE8fB8",
+    "contractOwnerAddress": "0xE662D9AF4cCe81FE7943291658116F0bFbF44630",
+    "defaultGas": "5000000",
+    "gasPrice": 10000000000
+  }
+}

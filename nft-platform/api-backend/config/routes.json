@@ -1,0 +1,134 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/v1/demo",
+      "authentication": false
+    },
+    {
+      "method": "POST",
+      "path": "/v1/demo_auth",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/metamask_user",
+      "authentication": false
+    },
+    {
+      "method": "POST",
+      "path": "/v1/metamask_auth",
+      "authentication": false
+    },
+    {
+      "method": "GET",
+      "path": "/v1/role",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/upload_token",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/brand/list",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/brand/create",
+      "authentication": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/admin/brand/delete/:id",
+      "authentication": true
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/admin/brand/edit",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/brand/token/issue",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/token/transaction",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/user/token/transaction",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/user/token/transaction_demo",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/brand/token/transaction",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/brand/token/transaction_single",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/user/token/verification",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/token/issue",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/account/profile_get",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/user/account/profile_get",
+      "authentication": true
+    },
+    {
+      "method": "POST",
+      "path": "/v1/brand/account/profile_edit",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/account/billing_list",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/token/symbol",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/user/token/symbol",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/brand/token/inventory",
+      "authentication": true
+    },
+    {
+      "method": "GET",
+      "path": "/v1/user/token/inventory",
+      "authentication": true
+    }
+  ]
+}

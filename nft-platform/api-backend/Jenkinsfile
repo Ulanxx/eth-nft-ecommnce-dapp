@@ -1,0 +1,21 @@
+pipeline {
+    agent {
+        docker {
+            image 'node:8'
+            args ''
+        }
+    }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'cd api-backend && npm install'
+                sh 'cd api-backend && npm run build'
+            }
+        }
+        stage('Start') {
+            steps {
+                sh ''
+            }
+        }
+    }
+}

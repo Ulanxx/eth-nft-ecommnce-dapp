@@ -1,0 +1,24 @@
+export function getAbi() {
+  return {
+    constant: false,
+    inputs: [
+      {
+        name: '_from',
+        type: 'address'
+      },
+      {
+        name: '_to',
+        type: 'address'
+      },
+      {
+        name: '_tokenId',
+        type: 'uint256'
+      }
+    ],
+    name: 'transferFrom',
+    outputs: [],
+    payable: false,
+    stateMutability: 'nonpayable',
+    type: 'function'
+  }
+}

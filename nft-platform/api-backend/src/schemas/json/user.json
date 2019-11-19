@@ -1,0 +1,41 @@
+[
+  {
+    "type": "BRAND",
+    "contactName": "John",
+    "contactEmail": "john@snk.com",
+    "contactPhoneNumber": "+1-392-9384-1111",
+    "userInfo": {
+      "companyName": "SNK",
+      "brandName": "SNK",
+      "publicAddress": "0x838adjdjdkfkkdi22"
+    },
+    "bills": [
+      {
+        "createdAt": "2018-09-01T11:11:11.000Z",
+        "cost": "90.98",
+        "orderInfo": {
+          "SKU": "dfdfdf"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ADMIN",
+    "contactName": "John",
+    "contactEmail": "john@ding.com",
+    "contactPhoneNumber": "+1-392-9384-1111",
+    "userInfo": {
+      "companyName": "whatsmode",
+      "dingId": "dkkekfef22djjddf"
+    }
+  },
+  {
+    "type": "ENDUSER",
+    "contactName": "John",
+    "contactEmail": "john@snk.com",
+    "contactPhoneNumber": "+1-392-9384-1111",
+    "userInfo": {
+      "publicAddress": "0x838adjdjdkfkkdi22"
+    }
+  }
+]

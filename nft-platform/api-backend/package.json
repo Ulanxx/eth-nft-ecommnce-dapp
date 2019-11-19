@@ -1,0 +1,67 @@
+{
+  "name": "api-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "lint": " npx eslint src/**/*.js --fix",
+    "test": "npx mocha -r babel-register --recursive",
+    "dev": "NODE_ENV=development npx babel-node src/index.js",
+    "build": "node_modules/babel-cli/bin/babel.js src -d dist && cp -a src/schemas dist/",
+    "start": "node_modules/pm2/bin/pm2 start dist/index.js --name nft_api_backend",
+    "stop": "node_modules/pm2/bin/pm2 delete nft_api_backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@repo.miraco.io/mir/nft-platform.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "auto-promise": "github:warking/auto-promise",
+    "babel-preset-env": "^1.2.1",
+    "babel-register": "^6.24.0",
+    "bluebird": "^3.5.0",
+    "eth-lib": "^0.2.8",
+    "ethereumjs-util": "^5.2.0",
+    "generic-pool": "^3.4.2",
+    "guid": "0.0.12",
+    "jsonschema": "^1.1.1",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.2.0",
+    "koa-cors": "github:kunyan/koa-cors#next",
+    "koa-json-body": "github:warking/koa-json-body",
+    "koa-sslify": "^2.1.0",
+    "lodash": "^4.17.10",
+    "log4js": "^3.0.5",
+    "moment": "^2.18.1",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.16",
+    "path-to-regexp": "^2.4.0",
+    "printf": "^0.2.5",
+    "qiniu": "^7.2.1",
+    "randomstring": "^1.1.5",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1",
+    "sleep-promise": "^8.0.1",
+    "stompit": "^0.26.0",
+    "validator": "^7.0.0",
+    "web3": "^1.0.0-beta.36",
+    "web3-eth-accounts": "latest",
+    "websocket": "^1.0.30"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^10.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.6.0",
+    "generate-schema": "^2.6.0",
+    "mocha": "^5.2.0",
+    "pm2": "^2.10.4"
+  }
+}

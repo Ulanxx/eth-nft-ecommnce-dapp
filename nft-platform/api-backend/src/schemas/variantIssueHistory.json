@@ -1,0 +1,15 @@
+{
+  "cost": "Number",
+  "batch":[
+    {
+      "variantId": {
+        "type": "ObjectId"
+      },
+      "createdAt": {
+        "type": "Date"
+      },
+      "amount": "Number"
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{
+  "from": "String",
+  "to": "String",
+  "tokenObjectId": "ObjectId",
+  "blockNumber": "String",
+  "blockHash": "String",
+  "txHash": "String",
+  "status": "String",
+  "createdAt": "Date"
+}
+

@@ -1,0 +1,34 @@
+{
+  "appenders": {
+    "console": {
+      "type": "console"
+    },
+    "default": {
+      "type": "file",
+      "filename": "logs/log_file.log",
+      "maxLogSize": 20480000,
+      "backups": 30
+    },
+    "debug": {
+      "type": "file",
+      "filename": "logs/debug_log_file.log",
+      "maxLogSize": 20480000,
+      "backups": 3
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "console",
+        "default"
+      ],
+      "level": "info"
+    },
+    "debug": {
+      "appenders": [
+        "debug"
+      ],
+      "level": "debug"
+    }
+  }
+}

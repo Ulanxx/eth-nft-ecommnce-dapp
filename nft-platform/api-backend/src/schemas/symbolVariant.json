@@ -1,0 +1,37 @@
+{
+  "symbol": {
+    "type": "String"
+  },
+  "name": {
+    "type": "String"
+  },
+  "title": {
+    "type": "String"
+  },
+  "url": {
+    "type": "String"
+  },
+  "description": {
+    "type": "String"
+  },
+  "category": {
+    "type": "String"
+  },
+  "brand": {
+    "type": "String"
+  },
+  "variants": [
+    {
+      "variant": {
+        "type": "String"
+      },
+      "sku": {
+        "type": "String"
+      },
+      "price": {
+        "type": "Number"
+      }
+    }
+  ]
+}
+

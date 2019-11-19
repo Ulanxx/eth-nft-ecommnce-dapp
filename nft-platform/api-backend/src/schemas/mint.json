@@ -1,0 +1,12 @@
+{
+  "to": "String",
+  "tokenId": "String",
+  "contractAddress": "String",
+  "blockNumber": "String",
+  "blockHash": "String",
+  "txHash": "String",
+  "variantId": "ObjectId",
+  "status": "String",
+  "uniqueSig": "String"
+}
+
