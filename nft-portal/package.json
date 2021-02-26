@@ -34,7 +34,7 @@
     "js-combinatorics": "^0.5.3",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "mobx": "^5.1.1",
     "mobx-react": "^5.2.8",
     "mobx-react-form": "^1.35.1",
