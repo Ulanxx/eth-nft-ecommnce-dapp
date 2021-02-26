@@ -1,1 +1,1 @@
-# MI_DAPP
+# An NFT marked goods unique e-commerce by ETH.
